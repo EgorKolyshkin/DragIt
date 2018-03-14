@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		74102441205565080050D67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74102440205565080050D67B /* AppDelegate.swift */; };
-		74102443205565080050D67B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74102442205565080050D67B /* ViewController.swift */; };
 		74102446205565080050D67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74102444205565080050D67B /* Main.storyboard */; };
 		74102448205565080050D67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74102447205565080050D67B /* Assets.xcassets */; };
 		7410244B205565080050D67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74102449205565080050D67B /* LaunchScreen.storyboard */; };
 		741024542055665C0050D67B /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741024532055665C0050D67B /* ArtViewController.swift */; };
 		74102456205566CA0050D67B /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74102455205566CA0050D67B /* ArtView.swift */; };
 		7410245820556D490050D67B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410245720556D490050D67B /* Utilities.swift */; };
+		741728F620598EA800B92EBC /* DocumentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741728F520598EA800B92EBC /* DocumentTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7410243D205565080050D67B /* DragIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74102440205565080050D67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74102442205565080050D67B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74102445205565080050D67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74102447205565080050D67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7410244A205565080050D67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		741024532055665C0050D67B /* ArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
 		74102455205566CA0050D67B /* ArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtView.swift; sourceTree = "<group>"; };
 		7410245720556D490050D67B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		741728F520598EA800B92EBC /* DocumentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 		7410243F205565080050D67B /* DragIt */ = {
 			isa = PBXGroup;
 			children = (
+				74102452205565EE0050D67B /* Supporting Files */,
 				741024532055665C0050D67B /* ArtViewController.swift */,
 				7410245720556D490050D67B /* Utilities.swift */,
 				74102455205566CA0050D67B /* ArtView.swift */,
-				74102452205565EE0050D67B /* Supporting Files */,
-				74102442205565080050D67B /* ViewController.swift */,
 				74102444205565080050D67B /* Main.storyboard */,
+				741728F520598EA800B92EBC /* DocumentTableViewController.swift */,
 				7410244C205565080050D67B /* Info.plist */,
 			);
 			path = DragIt;
@@ -153,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741728F620598EA800B92EBC /* DocumentTableViewController.swift in Sources */,
 				741024542055665C0050D67B /* ArtViewController.swift in Sources */,
-				74102443205565080050D67B /* ViewController.swift in Sources */,
 				74102456205566CA0050D67B /* ArtView.swift in Sources */,
 				7410245820556D490050D67B /* Utilities.swift in Sources */,
 				74102441205565080050D67B /* AppDelegate.swift in Sources */,
